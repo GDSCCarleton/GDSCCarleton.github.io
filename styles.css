@@ -50,6 +50,8 @@ body {
     }
   }
 
+
+
 .navbar-collapse {
     text-align: center;
 }
@@ -411,3 +413,19 @@ input:nth-of-type(3):checked ~ main#carousel {
         width: 10%;
     }
 }
+
+@media screen and (min-width: 975px) and (max-width: 1475px) {
+    .logo {
+        width: 15rem;
+    }
+    .navbar {
+        font-size: 15px;
+    }
+    .nav-item {
+        padding-right: 1rem;
+    }
+
+    .nav-item .btn {
+        font-size: small;
+    }
+  }
